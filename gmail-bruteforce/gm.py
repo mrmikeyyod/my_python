@@ -1,6 +1,5 @@
 import smtplib
 
-
 smtpserver = smtplib.SMTP("smtp.gmail.com", 587)
 smtpserver.starttls()
 user = raw_input(" enter email ")
